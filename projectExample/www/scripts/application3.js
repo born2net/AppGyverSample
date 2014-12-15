@@ -9,7 +9,7 @@ $(function () {
     $('#liList').append('<li>3</li>');
 
     $('#randomLeft').on('click',function(){
-        $(this).text(_.random(1,1000));
+        $(this).text('val'+_.random(1,1000));
     });
 
     setTimeout(function(){
