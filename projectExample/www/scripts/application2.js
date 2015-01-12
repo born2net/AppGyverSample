@@ -29,6 +29,7 @@ $(function () {
         self.start();
     });
 
+
     setTimeout(function () {
         $('#leftDrawer').hide();
         supersonic.ui.views.find("leftDrawer").then( function(leftDrawer) {
