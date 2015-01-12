@@ -10,9 +10,7 @@ $(function () {
         location: "../page2.html",
         id: "page2"
     });
-
     view2.start();
-
     supersonic.logger.log('starting app');
 
     $('#switch1').on('click', function (e) {
